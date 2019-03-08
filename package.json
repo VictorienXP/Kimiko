@@ -1,0 +1,22 @@
+{
+  "name": "kimiko",
+  "version": "0.0.1",
+  "description": "A very bad and poorly written Discord bot that serves no purpose.",
+  "main": "kimiko.js",
+  "scripts": {
+    "test": "node kimiko.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictorienXP/Kimiko.git"
+  },
+  "author": "VictorienXP",
+  "license": "The Unlicense",
+  "bugs": {
+    "url": "https://github.com/VictorienXP/Kimiko/issues"
+  },
+  "homepage": "https://github.com/VictorienXP/Kimiko#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}

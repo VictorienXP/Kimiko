@@ -68,13 +68,6 @@ bot.on('message', msg => {
 			if (commandfile)
 				commandfile.run(bot, msg, args);
 		}
-		/*else if (message == 'insult me') {
-			console.log(`${msg.author.tag} wanted sum insult.`);
-			if (is_bot_admin(msg.author.id))
-				msg.reply('I love you');
-			else
-				msg.reply('u suck');
-		}*/
 	}
 
 });

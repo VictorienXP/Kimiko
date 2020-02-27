@@ -4,7 +4,7 @@ require('../discord-patch.js');
 module.exports.run = async(bot, msg, args) => {
 
 	if (msg.author.is_bot_owner()) {
-		msg.channel.send(`See you later ${msg.author}! <:KimikoWink:442090482307301398>`);
+		msg.channel.send(`See you later ${msg.author}!`);
 		bot.destroy();
 		console.log(`${msg.author.tag} requested shutdown.`);
 		return true;

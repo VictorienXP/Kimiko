@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/VictorienXP/Kimiko#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.5.1"
   }
 }

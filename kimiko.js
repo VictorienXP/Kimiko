@@ -33,7 +33,7 @@ bot.on('ready', () => {
 	bot.user.setPresence({ game: { name: 'you fap', type: 'WATCHING' } });
 	bot.prefixMention = new RegExp(`^<@!?${bot.user.id}> `);
 	if (config.startgreet && bot.channels.get(config.startgreet))
-		bot.channels.get(config.startgreet).send(`I'm back <@!${config.owner}>! <:KimikoHappy:442090456852201522>`);
+		bot.channels.get(config.startgreet).send(`I'm back <@!${config.owner}>!`);
 });
 
 bot.on('message', msg => {
